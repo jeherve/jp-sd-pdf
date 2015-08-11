@@ -71,7 +71,7 @@ class Pdf_Sd_Button {
 	// Prompt to install Jetpack
 	public function install_jetpack() {
 		echo '<div class="error"><p>';
-		printf( __( 'To use the PDF Sharing plugin for Jetpack, you\'ll need to install and activate <a href="%1$s">Jetpack</a> first, and <a href="%2$s">activate the Sharing module</a>. Once you\'ve done so, install the <a href="%2$s">WP Post to PDF Enhanced plugin</a>.', 'pdf_sd_jp' ),
+		printf( __( 'To use the PDF Sharing plugin for Jetpack, you\'ll need to install and activate <a href="%1$s">Jetpack</a> first, and <a href="%2$s">activate the Sharing module</a>. Once you\'ve done so, install the <a href="%3$s">WP Post to PDF Enhanced plugin</a>.', 'pdf_sd_jp' ),
 		'plugin-install.php?tab=search&s=jetpack&plugin-search-input=Search+Plugins',
 		'admin.php?page=jetpack_modules',
 		'plugin-install.php?tab=search&s=WP+Post+to+PDF+Enhanced&plugin-search-input=Search+Plugins'
