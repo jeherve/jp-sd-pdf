@@ -1,6 +1,6 @@
 === PDF sharing button for Jetpack ===
 Contributors: jeherve
-Tags: WordPress.com, Jetpack, sharing, vk.com, vk
+Tags: WordPress.com, Jetpack, sharing, PDF
 Requires at least: 4.3
 Tested up to: 4.3
 Stable tag: 1.0

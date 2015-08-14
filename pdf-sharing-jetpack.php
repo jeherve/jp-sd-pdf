@@ -59,7 +59,7 @@ class Pdf_Sd_Button {
 		add_filter( 'sharing_services', array( $this, 'inject_service' ) );
 	}
 
-	// Add the Vk.com Button to the list of services in Sharedaddy
+	// Add the PDF Button to the list of services in Sharedaddy
 	public function inject_service ( $services ) {
 		include_once 'class.pdf-sharing-jetpack.php';
 		if ( class_exists( 'Share_PDF' ) ) {
